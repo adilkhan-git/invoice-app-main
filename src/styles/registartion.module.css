@@ -1,0 +1,20 @@
+.form_register {
+  margin-top: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.password {
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}

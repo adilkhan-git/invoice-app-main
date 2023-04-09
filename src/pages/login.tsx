@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { TextField, Button } from "@mui/material";
 import { generateToken, comparePasswords } from "../auth/authUtils";
+import styles from "../styles/login.module.css";
 
 interface User {
   id: number;
@@ -53,32 +54,48 @@ const Login = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <TextField
-          required
-          label="Email"
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </div>
-      <div>
-        <TextField
-          required
-          label="Password"
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-      </div>
-      {error && <div>{error}</div>}
-      <div>
-        <Button variant="contained" type="submit" color="primary">
-          Login
-        </Button>
-      </div>
-    </form>
+    <div className={styles.form_login}>
+      <h1>Log in</h1>
+
+      <form onSubmit={handleSubmit}>
+        <div className={styles.email}>
+          <TextField
+            required
+            label="Email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div className={styles.password}>
+          <TextField
+            required
+            label="Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        {error && <div>{error}</div>}
+        <div className={styles.login}>
+          <Button variant="contained" type="submit" color="primary">
+            Login
+          </Button>
+        </div>
+        <div className={styles.register}>
+          <Button
+            size="small"
+            variant="contained"
+            color="secondary"
+            onClick={() => {
+              window.location.href = "/registration";
+            }}
+          >
+            No account? Register!
+          </Button>
+        </div>
+      </form>
+    </div>
   );
 };
 

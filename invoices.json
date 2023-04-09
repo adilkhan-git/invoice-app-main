@@ -1,0 +1,22 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "number": "INV001",
+      "date": "2022-01-01",
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "number": "INV002",
+      "date": "2022-02-01",
+      "amount": 2000
+    },
+    {
+      "id": 3,
+      "number": "INV003",
+      "date": "2022-03-01",
+      "amount": 3000
+    }
+  ]
+}

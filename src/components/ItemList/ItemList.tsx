@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../ItemList/ItemList.module.css";
 
-function ItemList({ invoices }: { invoices: string[] }) {
+function ItemList() {
+  const [invoices, setInvoices] = useState<string[]>([]);
+
+  useEffect(() => {
+    async function fetchInvoices() {
+      const response = await fetch("http://localhost:3000/invoices");
+      const data = await response.json();
+      setInvoices(data.invoices);
+    }
+    fetchInvoices();
+  }, []);
+
+  console.log(invoices);
+
   return (
     <div>
       {invoices.length === 0 ? (

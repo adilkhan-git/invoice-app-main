@@ -71,6 +71,12 @@
       "email": "alina@mail.ru",
       "password": "$2a$10$WhwGGxUL8ebU1rjX7ZgI9uW9vMQYJOX1Vmk0zFCgx9JrRGXQEyRZC",
       "id": 12
+    },
+    {
+      "name": "Adik",
+      "email": "adik0398@list.ru",
+      "password": "$2a$10$BywYBnw0p76FjFE3aeya1OEQY7dfFUAru1/qQJTN2yn4suiHKy2bS",
+      "id": 13
     }
   ]
 }

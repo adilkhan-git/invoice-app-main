@@ -41,7 +41,7 @@ const Login = () => {
       }
 
       // генерация токена
-      const token = generateToken(email);
+      const token = await generateToken(email); // use await here
       // сохранение токена в локальном хранилище
       localStorage.setItem("token", token);
       // перенаправление на страницу Home

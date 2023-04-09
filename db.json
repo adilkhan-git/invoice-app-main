@@ -65,6 +65,12 @@
       "email": "nurzhan@mail.ru",
       "password": "$2a$10$25q7tjpqof6XGTW2WMdxHenpMWwW.cf1p4vj9.KOasopVqCW3J/0G",
       "id": 11
+    },
+    {
+      "name": "Alina",
+      "email": "alina@mail.ru",
+      "password": "$2a$10$WhwGGxUL8ebU1rjX7ZgI9uW9vMQYJOX1Vmk0zFCgx9JrRGXQEyRZC",
+      "id": 12
     }
   ]
 }

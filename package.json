@@ -21,6 +21,7 @@
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "jsonwebtoken": "^9.0.0",
+    "jsonwebtoken-promisified": "^1.0.3",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
-    "@types/jsonwebtoken": "^9.0.1"
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/jsonwebtoken-promisified": "^1.0.1"
   }
 }

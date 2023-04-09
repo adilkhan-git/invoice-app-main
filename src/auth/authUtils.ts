@@ -1,5 +1,5 @@
 import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
+import jwt from "jsonwebtoken-promisified";
 
 interface User {
   id: number;
@@ -16,16 +16,15 @@ const users: UserDB = require("../../db.json");
 
 const SECRET_KEY = "mysecretkey";
 
-export function generateToken(userId: string): string {
+export async function generateToken(userId: string): Promise<string> {
   const tokenPayload = { userId: userId };
-  console.log(SECRET_KEY);
-  console.log(tokenPayload);
-  const token = jwt.sign(userId, SECRET_KEY, { expiresIn: "1h" });
+  const token = await jwt.sign(tokenPayload, SECRET_KEY, { expiresIn: "1h" });
   return token;
 }
 
-export function verifyToken(token: string): { userId: string } {
-  return jwt.verify(token, SECRET_KEY) as { userId: string };
+export async function verifyToken(token: string): Promise<{ userId: string }> {
+  const decoded = await jwt.verify(token, SECRET_KEY);
+  return decoded as { userId: string };
 }
 
 export async function hashPassword(password: string): Promise<string> {

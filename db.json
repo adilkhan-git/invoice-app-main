@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "email": "jane@example.com",
+      "password": "password456"
+    },
+    {
+      "name": "A",
+      "email": "zmnbk@gmail.com",
+      "password": "$2a$10$KjUQjbJdm2Ig9AvLMqTN1.mWjLsVWtnpM6siBHEdG/1QllInq7Wuq",
+      "id": 3
+    },
+    {
+      "name": "A",
+      "email": "zmnbk@gmail.com",
+      "password": "$2a$10$UxRf1WKHZyl2TsR9aGGKReoTa/R.VHATwEFD6DUn.aKdOP3KRl8Vu",
+      "id": 4
+    },
+    {
+      "name": "A",
+      "email": "zmnbk@gmail.com",
+      "password": "$2a$10$M9ww4tRmnciKGZ0OyHRNguQe/Bcd8ZikCDRnE6tvhp02FSb/atOLu",
+      "id": 5
+    },
+    {
+      "name": "Adilkhan",
+      "email": "adik0398@mail.ru",
+      "password": "$2a$10$J3EqHEuZEKukEuVcDpXlyuXTF8Ph0qo22E4yFHLS.dmxyYyOj.1kC",
+      "id": 6
+    },
+    {
+      "name": "Alina",
+      "email": "alishok.tlp@gmail.com",
+      "password": "$2a$10$E.X1sklUkwyBrO8jYFCmHuppUfSZ4YL0LPmD3NXDMAEmsJMZKLXdi",
+      "id": 7
+    },
+    {
+      "name": "ab",
+      "email": "ab@mail.ru",
+      "password": "$2a$10$25KR0DEUfJsvrdZhu3myMeaPR4a/bfxGApj9nTR4Y8xyqK2jh6TIO",
+      "id": 8
+    },
+    {
+      "name": "almas",
+      "email": "almas@mail.ru",
+      "password": "$2a$10$UI87.49YBhJxMbmbtjqBAec861G2riXa46UGWed0rVpiTSnfXwIWm",
+      "id": 9
+    },
+    {
+      "name": "aidos",
+      "email": "aidos@mail.ru",
+      "password": "aidos",
+      "id": 10
+    },
+    {
+      "name": "nurzhan",
+      "email": "nurzhan@mail.ru",
+      "password": "$2a$10$25q7tjpqof6XGTW2WMdxHenpMWwW.cf1p4vj9.KOasopVqCW3J/0G",
+      "id": 11
+    }
+  ]
+}

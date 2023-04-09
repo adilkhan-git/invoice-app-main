@@ -1,0 +1,44 @@
+.rectangle {
+  position: absolute;
+  width: 103px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+
+  background: #373b53;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.logo {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  background: #7c5dfa;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.auth {
+  position: absolute;
+  visibility: hidden;
+  width: 103px;
+  height: 1px;
+  left: calc(50% - 103px / 2);
+  bottom: 88px;
+
+  background: #494e6e;
+  position: absolute;
+  width: 19.99px;
+  height: 19.9px;
+  left: calc(50% - 19.99px / 2 - 0.51px);
+  bottom: 121.1px;
+
+  /* 07 */
+
+  background: #7e88c3;
+}
+
+.logo1 {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 35px;
+}
